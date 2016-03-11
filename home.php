@@ -6,6 +6,12 @@
 	}
 	
 	$dados = $usuario->buscarUsuarioPorId($_SESSION["idUsuario"]);
+	
+	if(isset($_POST["btnLogout"])){
+		if($usuario->logout()){
+			$usuario->redirecionar("index.php");
+		}
+	}
 ?>
 
 <!DOCTYPE html>
@@ -80,7 +86,20 @@
 						</div>
 					</div>
 				</div><!-- Fim da coluna-->
-			</div>
+				<!-- Coluna -->
+				<div class="col-lg-6">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<form action="home.php" method="post" class="form-horizontal">
+								<button type="submit" name="btnLogout" class="btn btn-info">Logout</button>
+								<p>
+									Sair do sistema
+								</p>
+							</form>
+						</div>
+					</div>
+				</div><!-- Fim da coluna-->
+			</div><!-- fim da linha-->
 		</section>
 	</div><!-- Fim do container de contato-->
 	

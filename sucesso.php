@@ -38,6 +38,12 @@
 						<hr>
 						<a href="index.php" class="btn btn-info">Continuar</a>
 					<?php
+						} elseif ($id == 2) {
+					?>
+						<label for="sucesso" class="col-lg-2 control-label ">Reserva cadastrada com sucesso!</label>
+						<hr>
+						<a href="reservas.php" class="btn btn-info">Continuar</a>
+					<?php
 						}
 					?>
 				</div>

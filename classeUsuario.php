@@ -33,8 +33,6 @@
 			try{
 				$smtm = $this->bancoConexao->prepare("INSERT INTO usuarios(nome,email,senha) VALUES(:nome, :email, :senha)");
 				$smtm->execute(array(":nome"=>$nome,":email"=>$email,":senha"=>$senha));
-				print_r($smtm);
-				exit();
 				return $smtm;
 			} catch(Exception $e){
 				echo $e->getMessage();

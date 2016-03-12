@@ -46,7 +46,7 @@
 				<div class="col-lg-6">
 					<div class="panel panel-default text-center">
 						<div class="panel-body">
-							<a href="#" class="btn btn-info">Reservas</a>
+							<a href="reservas.php" class="btn btn-info">Reservas</a>
 							<p>
 								Faça uma reserva ou veja uma reserva já existente.
 							</p>

@@ -34,13 +34,13 @@
 
 
 <body>
-	<!-- Container de contato-->
+	<!-- Container de login-->
 	<div class="container">
 		<section>
-			<!-- Header de contato-->
-			<div class="page-header" id="contato">
+			<!-- Header de login-->
+			<div class="page-header" id="login">
 				<h2>Login</h2>
-			</div><!-- Fim do header de contato-->
+			</div><!-- Fim do header de login-->
 			
 			<!-- Linha -->
 			<div class="row">
